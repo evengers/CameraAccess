@@ -1,0 +1,13 @@
+{
+    "id": "123424092815",
+    "eir": "0201060302fffe",
+    "scanResponse": "0d094854432d3234303932383135020a00",
+    "decodedNonEditable": {
+        "localName": "HTC-24092819",
+        "manufacturerDataHex": null,
+        "manufacturerDataAscii": null,
+        "serviceUuids": [
+            "feff"
+        ]
+    }
+} 
