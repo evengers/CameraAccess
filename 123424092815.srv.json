@@ -1,0 +1,195 @@
+[
+    {
+        "uuid": "1801",
+        "name": "Generic Access",
+        "type": "org.bluetooth.service.generic_access",
+        "startHandle": 1,
+        "endHandle": 7,
+        "characteristics": [
+            {
+                "uuid": "2a00",
+                "name": "HTC-24092819",
+                "properties": [
+                    "read"
+                ],
+                "value": "4854432d3234303932383135",
+                "descriptors": [],
+                "startHandle": 2,
+                "valueHandle": 3,
+                "asciiValue": "HTC-24092819"
+            },
+            {
+                "uuid": "2a01",
+                "name": "Appearance",
+                "properties": [
+                    "read"
+                ],
+                "value": "0000",
+                "descriptors": [],
+                "startHandle": 4,
+                "valueHandle": 5,
+                "asciiValue": "  "
+            },
+            {
+                "uuid": "2a04",
+                "name": "Peripheral Preferred Connection Parameters",
+                "properties": [
+                    "read"
+                ],
+                "value": "0f000f000000e803",
+                "descriptors": [],
+                "startHandle": 6,
+                "valueHandle": 7,
+                "asciiValue": "        "
+            }
+        ]
+    },
+    {
+        "uuid": "1801",
+        "name": "Generic Attribute",
+        "type": "org.bluetooth.service.generic_attribute",
+        "startHandle": 8,
+        "endHandle": 11,
+        "characteristics": [
+            {
+                "uuid": "2a05",
+                "name": "Service Changed",
+                "properties": [
+                    "indicate"
+                ],
+                "value": "",
+                "descriptors": [
+                    {
+                        "handle": 11,
+                        "uuid": "2902",
+                        "value": ""
+                    }
+                ],
+                "startHandle": 9,
+                "valueHandle": 10
+            }
+        ]
+    },
+    {
+        "uuid": "5833ff019b8b5191614222a4536ef123",
+        "name": null,
+        "type": null,
+        "startHandle": 12,
+        "endHandle": 17,
+        "characteristics": [
+            {
+                "uuid": "5833ff029b8b5191614222a4536ef123",
+                "name": null,
+                "properties": [
+                    "write"
+                ],
+                "value": "",
+                "descriptors": [],
+                "startHandle": 13,
+                "valueHandle": 14
+            },
+            {
+                "uuid": "5833ff039b8b5191614222a4536ef123",
+                "name": null,
+                "properties": [
+                    "notify"
+                ],
+                "value": "",
+                "descriptors": [
+                    {
+                        "handle": 17,
+                        "uuid": "2902",
+                        "value": ""
+                    }
+                ],
+                "startHandle": 15,
+                "valueHandle": 16
+            }
+        ]
+    },
+    {
+        "uuid": "ffe0",
+        "name": null,
+        "type": null,
+        "startHandle": 18,
+        "endHandle": 65535,
+        "characteristics": [
+            {
+                "uuid": "fff3",
+                "name": null,
+                "properties": [
+                    "notify"
+                ],
+                "value": "",
+                "descriptors": [
+                    {
+                        "handle": 21,
+                        "uuid": "2902",
+                        "value": ""
+                    }
+                ],
+                "startHandle": 19,
+                "valueHandle": 20
+            },
+            {
+                "uuid": "fff4",
+                "name": null,
+                "properties": [
+                    "write"
+                ],
+                "value": "",
+                "descriptors": [],
+                "startHandle": 22,
+                "valueHandle": 23
+            },
+            {
+                "uuid": "ffe9",
+                "name": null,
+                "properties": [
+                    "writeWithoutResponse",
+                    "write"
+                ],
+                "value": "",
+                "descriptors": [],
+                "startHandle": 24,
+                "valueHandle": 25
+            },
+            {
+                "uuid": "ffea",
+                "name": null,
+                "properties": [
+                    "read",
+                    "notify"
+                ],
+                "value": "763237203234303831332335363500",
+                "descriptors": [
+                    {
+                        "handle": 28,
+                        "uuid": "2902",
+                        "value": ""
+                    }
+                ],
+                "startHandle": 26,
+                "valueHandle": 27,
+                "asciiValue": "v27 240813#565 "
+            },
+            {
+                "uuid": "ffeb",
+                "name": null,
+                "properties": [
+                    "notify"
+                ],
+                "value": "",
+                "descriptors": [
+                    {
+                        "handle": 31,
+                        "uuid": "2902",
+                        "value": ""
+                    }
+                ],
+                "startHandle": 29,
+                "valueHandle": 30
+            }
+        ]
+    }
+]
