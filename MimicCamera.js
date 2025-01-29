@@ -2,6 +2,9 @@
 uses node v18.20.6
 npm -v 10.8.2
 
+blehero or light-blue or nrfconnect apps are useful for iphone/ipad interrogation of bluetooth
+bettercap and gattatacker were used on linuv (the latter is way out of date and not fully functional but at least can be used to scan)
+
 camera app running on iphone tries to communicate with this.
 point is only to trap the initial bluetooth traffic
 
