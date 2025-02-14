@@ -5,3 +5,9 @@ Bluetooth cracking
 GeeekPi nRF52840 MDK USB Dongle w/Case Development Platform used along with wireshark. sniffer worked well but it's a useless exercise
 
 better was to use Bleno to mimic the camera and trap traffic.  the bluetooth characteristics were gathered by gattatacker and confirmed with loght-blue and blehero.
+
+
+camera Wifi connect:
+RD7010PRO-cc641a22295e
+12345678
+
