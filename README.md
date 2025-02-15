@@ -12,6 +12,15 @@ RD7010PRO-cc641a22295e
 12345678
 
 
+follow the following instructions to make a "machine in the middle"
+
+https://hackaday.io/project/10338/instructions
+
+or much easier to do the same thing ...
+
+install rasp ap and wireshark/tshark
+
+https://github.com/RaspAP/raspap-webgui/releases/latest
 
 Yes! If you capture packets using:
 
