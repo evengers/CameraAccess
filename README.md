@@ -11,3 +11,36 @@ camera Wifi connect:
 RD7010PRO-cc641a22295e
 12345678
 
+
+
+Yes! If you capture packets using:
+
+sudo tshark -i wlan0 -f "tcp port 80" -Y "http" -l -w http_capture.pcap -P
+
+You can later extract a human-readable text summary in the format you like using the .pcap file.
+
+Convert .pcap to a Readable HTTP Summary
+
+After capturing, run:
+
+tshark -r http_capture.pcap -Y "http" -T fields -e http.host -e http.request.uri
+
+This will extract and display only the hostnames and requested URIs from the saved .pcap file.
+
+Save the Summary to a Text File
+
+To save it for later:
+
+tshark -r http_capture.pcap -Y "http" -T fields -e http.host -e http.request.uri > http_summary.txt
+
+Alternative: More Detailed Output
+
+If you want verbose details from the .pcap file:
+
+tshark -r http_capture.pcap -Y "http" -V > http_detailed_summary.txt
+
+This gives a Wireshark-style detailed output.
+
+Summary:
+✅ Yes, you can capture in .pcap format and later extract a human-readable HTTP summary!
+Would you like to filter for specific requests (e.g., only GET or POST)?
