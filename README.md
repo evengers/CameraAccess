@@ -16,6 +16,10 @@ follow the following instructions to make a "machine in the middle"
 
 https://hackaday.io/project/10338/instructions
 
+or using mitmproxy
+
+https://dinofizzotti.com/blog/2022-04-24-running-a-man-in-the-middle-proxy-on-a-raspberry-pi-4/
+
 or much easier to do the same thing ...
 
 install rasp ap and wireshark/tshark
