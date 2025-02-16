@@ -28,6 +28,11 @@ https://github.com/RaspAP/raspap-webgui/releases/latest
 
 Yes! If you capture packets using:
 
+since we are only interested in http to from the camera which is at 192.168.8.120 ....
+sudo tshark -i wlan0 -f "tcp port 80 and host 192.168.8.120" -Y "http" -l | tee http_capture.txt
+
+
+other possibles below ...
 sudo tshark -i wlan0 -f "tcp port 80" -Y "http" -l -w http_capture.pcap -P
 
 You can later extract a human-readable text summary in the format you like using the .pcap file.
