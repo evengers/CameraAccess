@@ -1,0 +1,13 @@
+<html>
+<body>
+<h2>Folder Contents</h2>
+<table cellpadding="5">
+  <tr><th>Preview</th><th>Filename</th><th>Filesize</th><th>Filetime</th><th>Action</th></tr>
+  {{FILES}}
+</table>
+<form name="frm" action="/DCIM/100HUNTI" method="post" enctype="multipart/form-data">
+  <input name="fileupload1" size="70" type="file" accept="image/*,video/*"><br/>
+  <input name="upbtn" type="submit" value="Upload files">
+</form>
+</body>
+</html>
