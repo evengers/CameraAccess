@@ -20,6 +20,16 @@ status is normally GET with 200 OK .   Responses are xml in body. For most comma
 
 COMMANDS WITH UNCERTAIN PURPOSE 
 3001&par=2 RETURNS xml confirm "<Status> 0 </Status>"  TIS MAY BE THE FORMATTER
+3001&par=1
+3001&par=0
+
+3019
+<Function>
+  <Cmd>3019</Cmd>
+  <Status>0</Status>
+  <Value>0</Value>
+</Function>
+
 3016 RETURNS xml confirm "<Status> 1 </Status>"  PURPOSE?? sets??? why status 1? is this the formater???
 2016 RETURNS following  PURPOSE??
  <Function>
