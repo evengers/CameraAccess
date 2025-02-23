@@ -23,6 +23,13 @@ COMMANDS WITH UNCERTAIN PURPOSE
 3001&par=1
 3001&par=0
 
+3017. RETURNS following odd value
+<Function>
+  <Cmd>3017</Cmd>
+  <Status>0</Status>
+  <Value>256305922048</Value>
+</Function>
+
 3019
 <Function>
   <Cmd>3019</Cmd>
