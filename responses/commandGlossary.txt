@@ -6,6 +6,8 @@ URL: http://192.168.8.120/DCIM/100HUNTI/IMAG0285.MP4?custom=1&cmd=4001
 list all images
 URL: http://192.168.8.120/DCIM/100HUNTI
 
+template for folder
+URL: http://192.168.8.120/DCIM
 
 commands that start with prefix http://192.168.8.120/?custom=1&cmd=
 
