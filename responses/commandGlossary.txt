@@ -1,0 +1,29 @@
+commands that start with prefix http://192.168.8.120/?custom=1&cmd=
+
+status is normally GET with 200 OK .   Responses are xml in body. For most commands it is echo command number and sttus e.g.,:
+ <Function>
+   <Cmd> 3005 </Cmd>
+   <Status> 0 </Status>
+ </Function>
+
+
+  COMMANDS with KNOWN function
+
+3012 RETURNS name of camera and some summary info
+3005&str=2025-02-23 SETS date and RETURNS xml confirm "<Status> 0 </Status>"
+3006&str=12:49:48 SETS time
+
+3031&str=  (blank) RETURNS list of image size and resolution options. Also some chk "<CHK>0A8C</CHK>"
+
+3014 RETURNS list of about 20 commands with status
+
+
+COMMANDS WITH UNCERTAIN PURPOSE 
+3001&par=2 RETURNS xml confirm "<Status> 0 </Status>"  TIS MAY BE THE FORMATTER
+3016 RETURNS xml confirm "<Status> 1 </Status>"  PURPOSE?? sets??? why status 1? is this the formater???
+2016 RETURNS following  PURPOSE??
+ <Function>
+   <Cmd> 2016 </Cmd>
+   <Status> 0 </Status>
+   <Value> 0 </Value>
+ </Function>
