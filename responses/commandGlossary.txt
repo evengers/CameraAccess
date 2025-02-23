@@ -63,9 +63,9 @@ COMMANDS WITH UNCERTAIN PURPOSE
 
 
 App Settings 
-
+2008&par=1 oneof the settings
 9017&par=2 RETURNS xml confirm "<Status> 0 </Status>. is this a setting?
 9017&par=1 RETURNS xml confirm "<Status> 0 </Status>. is this a setting?
-
+9009&par=0 oneof the settings
 9010&str=TC08 sets camera name to TC08
 
