@@ -69,4 +69,6 @@ App Settings
 9009&par=0 oneof the settings
 9010&str=TC08 sets camera name to TC08
 9013&par=1056
+9013&par=1052
 9014&par=554
+
