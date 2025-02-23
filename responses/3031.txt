@@ -1,0 +1,101 @@
+<LIST>
+  <Item>
+    <Cmd>1002</Cmd>
+    <Name>Image Size</Name>
+    <MenuList>
+      <Option>
+        <Index>0</Index>
+        <Id>112M</Id>
+      </Option>
+      <Option>
+        <Index>1</Index>
+        <Id>92M</Id>
+      </Option>
+      <Option>
+        <Index>2</Index>
+        <Id>85M</Id>
+      </Option>
+      <Option>
+        <Index>3</Index>
+        <Id>73M</Id>
+      </Option>
+      <Option>
+        <Index>4</Index>
+        <Id>71M</Id>
+      </Option>
+      <Option>
+        <Index>5</Index>
+        <Id>59M</Id>
+      </Option>
+      <Option>
+        <Index>6</Index>
+        <Id>48M</Id>
+      </Option>
+      <Option>
+        <Index>7</Index>
+        <Id>45M</Id>
+      </Option>
+      <Option>
+        <Index>8</Index>
+        <Id>38M</Id>
+      </Option>
+      <Option>
+        <Index>9</Index>
+        <Id>30M</Id>
+      </Option>
+      <Option>
+        <Index>10</Index>
+        <Id>21M</Id>
+      </Option>
+      <Option>
+        <Index>11</Index>
+        <Id>16M</Id>
+      </Option>
+      <Option>
+        <Index>12</Index>
+        <Id>8M</Id>
+      </Option>
+      <Option>
+        <Index>13</Index>
+        <Id>4M</Id>
+      </Option>
+    </MenuList>
+  </Item>
+  <Item>
+    <Cmd>2002</Cmd>
+    <Name>Resolution</Name>
+    <MenuList>
+      <Option>
+        <Index>0</Index>
+        <Id>4K 30FPS</Id>
+      </Option>
+      <Option>
+        <Index>1</Index>
+        <Id>2K 30FPS</Id>
+      </Option>
+      <Option>
+        <Index>2</Index>
+        <Id>1296 30FPS</Id>
+      </Option>
+      <Option>
+        <Index>3</Index>
+        <Id>1080 30FPS</Id>
+      </Option>
+      <Option>
+        <Index>4</Index>
+        <Id>720 30FPS</Id>
+      </Option>
+    </MenuList>
+  </Item>
+  <Item>
+    <Cmd>9010</Cmd>
+    <Name>Camera Name</Name>
+    <MenuList>
+      <Option>
+        <Index>0</Index>
+        <Id>TC08</Id>
+      </Option>
+    </MenuList>
+  </Item>
+  <CHK>0A8C</CHK>
+</LIST>
