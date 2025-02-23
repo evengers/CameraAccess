@@ -23,6 +23,8 @@ COMMANDS WITH UNCERTAIN PURPOSE
 3001&par=1
 3001&par=0
 
+3010&par=1 RETURNS xml confirm "<Status> 0 </Status>
+
 3017. RETURNS following odd value
 <Function>
   <Cmd>3017</Cmd>
