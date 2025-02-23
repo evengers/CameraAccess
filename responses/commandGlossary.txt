@@ -9,7 +9,7 @@ status is normally GET with 200 OK .   Responses are xml in body. For most comma
 
   COMMANDS with KNOWN function
 
-3012 RETURNS name of camera and some summary info
+3012 RETURNS name of camera and some summary info PROBABLY INITIATES COMMUNICATION
 3005&str=2025-02-23 SETS date and RETURNS xml confirm "<Status> 0 </Status>"
 3006&str=12:49:48 SETS time
 
