@@ -1,0 +1,11 @@
+<Function>
+  <Cmd>3012</Cmd>
+  <Status>0</Status>
+  <String>565</String>
+  <String>RD7010PRO_01</String>
+  <String>20190620</String>
+  <String>Nov 11 2024, 09:46:36</String>
+  <String>HUNTCAM</String>
+  <String>RTSP://192.168.8.120//xxx.mov</String>
+  <String>RTSP://192.168.8.120//xxx.mov</String>
+</Function>
