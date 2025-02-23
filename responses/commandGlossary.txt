@@ -60,3 +60,12 @@ COMMANDS WITH UNCERTAIN PURPOSE
    <Status> 0 </Status>
    <Value> 0 </Value>
  </Function>
+
+
+App Settings 
+
+9017&par=2 RETURNS xml confirm "<Status> 0 </Status>. is this a setting?
+9017&par=1 RETURNS xml confirm "<Status> 0 </Status>. is this a setting?
+
+9010&str=TC08 sets camera name to TC08
+
