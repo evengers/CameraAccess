@@ -62,13 +62,28 @@ COMMANDS WITH UNCERTAIN PURPOSE
  </Function>
 
 
-App Settings 
+App Settings most settings take a parameter value. can probably determine some by number of choices in app
+1002&par=0
+1002&par=3
+2002&par=2
 2008&par=1 oneof the settings
 9017&par=2 RETURNS xml confirm "<Status> 0 </Status>. is this a setting?
 9017&par=1 RETURNS xml confirm "<Status> 0 </Status>. is this a setting?
+9001&par=0 RETURNS xml confirm "<Status> 0 </Status>
+9001&par=1
+9001&par=2
+9002&par=7
+9003&par=0
+9003&par=3
+9005&par=0
+9005&par=1
 9006&par=1
+
+9007&par=1
+9008&par=10
 9009&par=0 oneof the settings
 9010&str=TC08 sets camera name to TC08
+9012&par=0
 9013&par=1056
 9013&par=1052
 9014&par=554
