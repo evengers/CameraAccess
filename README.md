@@ -11,6 +11,9 @@ camera Wifi connect:
 RD7010PRO-cc641a22295e
 12345678
 
+second camera
+RD7010PRO-cc641a222a8f,12345678
+
 
 follow the following instructions to make a "machine in the middle"
 
