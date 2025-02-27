@@ -1,0 +1,92 @@
+Code relevant to GPIO3  and GPIO2
+
+
+
+    public final void f2(int i2) {
+        r.b bVar = (r.b) this.f599z.f1757b.get(i2);
+        if (bVar == null || bVar.f1723b == null || !this.f599z.E(bVar, "GPIO2")) {
+            return;
+        }
+        f3(getString(t.p.p1), 0);
+    }
+    public void f3(String str, int i2) {
+        Toast makeText = Toast.makeText(this, str, i2);
+        LinearLayout linearLayout = (LinearLayout) makeText.getView();
+        if (linearLayout != null) {
+            ((TextView) linearLayout.getChildAt(0)).setTextSize(18.0f);
+        }
+        makeText.show();
+    }
+    @Override // v.a.r
+    public void g() {
+    }
+    public final void g2(int i2) {
+        r.b bVar = (r.b) this.f599z.f1757b.get(i2);
+        if (bVar == null || bVar.f1723b == null) {
+            return;
+        }
+        this.f599z.E(bVar, "GPIO3");
+    }
+
+
+
+
+
+    public final void g2(int i2) {
+        r.b bVar = (r.b) this.f599z.f1757b.get(i2);
+        if (bVar == null || bVar.f1723b == null) {
+            return;
+        }
+        this.f599z.E(bVar, "GPIO3");
+
+
+
+HTTP
+
+    public void A() {
+        V("[HTTP]", "同步相机时间成功");
+        this.f597y.o();
+    }
+
+ /* renamed from: o, reason: collision with root package name */
+    public String f688o = "http://192.168.8.120:8192";
+    /* renamed from: p, reason: collision with root package name */
+    public String f689p = "http://192.168.8.120:8192";
+    /* renamed from: q, reason: collision with root package name */
+    public String f690q = "http://192.168.8.120";
+    /* renamed from: r, reason: collision with root package name */
+
+
+
+
+       public void onUnavailable() {
+            MainActivity.this.Y(4);
+            MainActivity.this.V("[WIFI]", "手动连接/WIFI未连接");
+        }
+    }
+    public class f1 extends Handler {
+        public f1(Looper looper) {
+            super(looper);
+        }
+        @Override // android.os.Handler
+        public void handleMessage(Message message) {
+            super.handleMessage(message);
+            switch (message.what) {
+                case 257:
+                    MainActivity.this.V("[HTTP]", "开始同相机同步信息");
+                    MainActivity.this.f597y.p();
+                    break;
+                case MediaPlayer.Event.Opening /* 258 */:
+                    MainActivity.this.V("[HTTP]", "相机连接成功");
+                    MainActivity mainActivity = MainActivity.this;
+                    SharedPreferences sharedPreferences = mainActivity.getSharedPreferences(mainActivity.getString(t.p.r1), 0);
+                    sharedPreferences.edit().putString("Mcu Name", MainActivity.this.f565i).commit();
+                    sharedPreferences.edit().putString("Project ID", MainActivity.this.f567j).commit();
+                    sharedPreferences.edit().putString("Project Ver", MainActivity.this.f569k).commit();
+                    sharedPreferences.edit().putString("Build Time", MainActivity.this.f571l).commit();
+                    sharedPreferences.edit().putString("OTG", MainActivity.this.f573m).commit();
+                    sharedPreferences.edit().putInt("Camera Mode", MainActivity.this.f561g).commit();
+                    sharedPreferences.edit().putBoolean("isEnterFromLogin", MainActivity.this.f563h).commit();
+                    sharedPreferences.edit().putBoolean("isVideoFiles", false).commit();
+                    MyApplication.f672y.f682i = 1;
+   
