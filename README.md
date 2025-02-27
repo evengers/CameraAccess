@@ -1,3 +1,8 @@
+Device 12:34:24:09:2E:B4 Name: HTC-24092EB4 (west)
+
+Device         24:09:28:15        HTC-24092815 (east startscalso with 12:34?)
+
+
 Trigkey KEY-N100 Mini PC, Intel Alder Lake N100 (4C/4T, Up to 3.4Hz) 16G DDR4 500G SSD Mini Computer, Intel N100 Mini PC Support Dual Display 2*HDMI/Dual 1000MB/S Ethernet/WiFi-5/BT5.0
 runs proxmox NOTE: WIFI adapter does work as wifi client but  not work as AP bridge and Bluetooth does not seem to pass through to linux VMs (using proxmox) in other words dongles are needed for that functionality.
 
