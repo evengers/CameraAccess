@@ -1,3 +1,13 @@
+
+12:34:24:09:28:15 HTC-24092815 Mac address as returns by Lescan
+
+Id shown on app:  24:09:28:15
+
+
+Model TCo8BXPXXX
+TC08
+RDF-4724
+
 Device 12:34:24:09:2E:B4 Name: HTC-24092EB4 (west)
 
 Device         24:09:28:15        HTC-24092815 (east startscalso with 12:34?)
