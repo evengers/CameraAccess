@@ -1,3 +1,18 @@
+
+12:34:24:09:28:15 HTC-24092815 Mac address as returns by Lescan
+
+Id shown on app:  24:09:28:15
+
+
+Model TCo8BXPXXX
+TC08
+RDF-4724
+
+Device 12:34:24:09:2E:B4 Name: HTC-24092EB4 (west)
+
+Device         24:09:28:15        HTC-24092815 (east startscalso with 12:34?)
+
+
 Trigkey KEY-N100 Mini PC, Intel Alder Lake N100 (4C/4T, Up to 3.4Hz) 16G DDR4 500G SSD Mini Computer, Intel N100 Mini PC Support Dual Display 2*HDMI/Dual 1000MB/S Ethernet/WiFi-5/BT5.0
 runs proxmox NOTE: WIFI adapter does work as wifi client but  not work as AP bridge and Bluetooth does not seem to pass through to linux VMs (using proxmox) in other words dongles are needed for that functionality.
 
@@ -5,6 +20,15 @@ Bluetooth cracking
 GeeekPi nRF52840 MDK USB Dongle w/Case Development Platform used along with wireshark. sniffer worked well but it's a useless exercise
 
 better was to use Bleno to mimic the camera and trap traffic.  the bluetooth characteristics were gathered by gattatacker and confirmed with loght-blue and blehero.
+
+python camera simulator creates following output confirming GPIO3 is command to wake wifi
+2025-03-01 16:55:44,294 - INFO - Starting BLE peripheral...
+2025-03-01 16:55:44,349 - bluezero.GATT - INFO - GATT application registered
+2025-03-01 16:55:44,349 - INFO - GATT application registered
+Advertisement registered
+2025-03-01 16:56:30,268 - INFO - Sending response: Response from simulated camera
+2025-03-01 16:56:30,808 - INFO - Received command: GPIO3 on Service UUID: FFE0, Characteristic UUID: FFE9
+^C2025-03-01 16:58:46,566 - INFO - Advertising as HTC-12345678
 
 
 camera Wifi connect:

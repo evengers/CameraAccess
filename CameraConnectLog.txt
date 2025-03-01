@@ -1,0 +1,82 @@
+The log details the process of an iOS device connecting to a remote camera, initiating with a Bluetooth connection and transitioning to a Wi-Fi connection. Here’s a translation and explanation of the log entries:
+
+Time: 09:12:39
+	•	[SYSV]iPad16,3/18.3: Indicates the system version of the device, specifying the iPad model and its iOS version.
+
+Time: 09:12:39
+	•	[BLEC]开始扫描蓝牙: “Started scanning for Bluetooth devices.”
+
+Time: 09:13:02
+	•	[BLEC]已经连接蓝牙 (repeated five times): “Bluetooth connected.”
+
+Time: 09:13:03
+	•	[BLEC]已经获取到蓝牙版本 (repeated five times): “Bluetooth version obtained.”
+
+Time: 09:13:14
+	•	[FFEB]RD7010PRO-cc641a22295e/12345678/(null)/1: This entry likely represents the identification details of the connected device, including model number, unique identifier, and possibly firmware version.
+
+Time: 09:13:15
+	•	[WIFI]系统开始搜索直连WiFi: “System started searching for direct Wi-Fi connection.”
+
+Time: 09:13:23
+	•	[WIFI]已连接的WiFi信息 = Zuhause5G: “Connected Wi-Fi information = Zuhause5G.”
+
+Time: 09:13:23
+	•	[HTTP]WiFi连接失败/error=4: “Wi-Fi connection failed/error=4.”
+
+Time: 09:13:34
+	•	[BLEC]开始扫描蓝牙: “Started scanning for Bluetooth devices.”
+
+Time: 09:13:37
+	•	[BLEC]已经连接蓝牙 (repeated five times): “Bluetooth connected.”
+
+Time: 09:13:38
+	•	[BLEC]已经获取到蓝牙版本 (repeated five times): “Bluetooth version obtained.”
+
+Time: 09:13:39
+	•	[FFEB]RD7010PRO-cc641a22295e/12345678/(null)/1: Device identification details.
+
+Time: 09:13:40
+	•	[WIFI]系统开始搜索直连WiFi: “System started searching for direct Wi-Fi connection.”
+
+Time: 09:13:48
+	•	[WIFI]已连接的WiFi信息 = RD7010PRO-cc641a22295e: “Connected Wi-Fi information = RD7010PRO-cc641a22295e.”
+
+Time: 09:13:48
+	•	[WIFI]系统直连成功,延时等待网络稳定: “System direct connection successful, waiting briefly for network stabilization.”
+
+Time: 09:13:53
+	•	[HTTP]开始同相机同步信息: “Started synchronizing information with the camera.”
+
+Time: 09:13:54
+	•	[HTTP]565/RD7010PRO_01/20190620/Nov 11 2024, 09:46:36/HUNTCAM: Details of the camera, possibly including model, firmware version, and manufacturer.
+
+Time: 09:13:54
+	•	[HTTP]同步相机日期成功: “Camera date synchronization successful.”
+
+Time: 09:13:54
+	•	[HTTP]同步相机时间成功: “Camera time synchronization successful.”
+
+Time: 09:13:54
+	•	[HTTP]同步相机模式成功: “Camera mode synchronization successful.”
+
+Time: 09:13:55
+	•	[HTTP]同步相机3031成功: “Camera 3031 synchronization successful.”
+
+Time: 09:13:55
+	•	[HTTP]相机连接成功: “Camera connection successful.”
+
+The subsequent entries follow a similar pattern, indicating repeated attempts to connect and synchronize with the camera at different times throughout the day.
+
+Summary of the Process:
+	1.	Bluetooth Scanning and Connection: The iOS device initiates a Bluetooth scan and establishes a connection with the camera.
+	2.	Bluetooth Version Retrieval: After connecting, the device retrieves the Bluetooth version information from the camera.
+	3.	Device Identification: The system logs the camera’s identification details, including model and unique identifier.
+	4.	Wi-Fi Search and Connection:
+	•	The system searches for a direct Wi-Fi connection to the camera.
+	•	Initially, it connects to a network named “Zuhause5G,” but this connection fails (error=4).
+	•	Subsequently, it successfully connects to the camera’s Wi-Fi network “RD7010PRO-cc641a22295e.”
+	5.	Network Stabilization: After establishing the Wi-Fi connection, the system waits briefly to ensure network stability.
+	6.	Information Synchronization: The device synchronizes various settings with the camera, including date, time, mode, and other parameters, culminating in a successful connection.
+
+This sequence demonstrates the device’s process of establishing a stable connection with the camera, transitioning from Bluetooth to Wi-Fi, and ensuring all necessary settings are synchronized for optimal functionality.
