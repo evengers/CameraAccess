@@ -21,6 +21,15 @@ GeeekPi nRF52840 MDK USB Dongle w/Case Development Platform used along with wire
 
 better was to use Bleno to mimic the camera and trap traffic.  the bluetooth characteristics were gathered by gattatacker and confirmed with loght-blue and blehero.
 
+python camera simulator creates following output confirming GPIO3 is command to wake wifi
+2025-03-01 16:55:44,294 - INFO - Starting BLE peripheral...
+2025-03-01 16:55:44,349 - bluezero.GATT - INFO - GATT application registered
+2025-03-01 16:55:44,349 - INFO - GATT application registered
+Advertisement registered
+2025-03-01 16:56:30,268 - INFO - Sending response: Response from simulated camera
+2025-03-01 16:56:30,808 - INFO - Received command: GPIO3 on Service UUID: FFE0, Characteristic UUID: FFE9
+^C2025-03-01 16:58:46,566 - INFO - Advertising as HTC-12345678
+
 
 camera Wifi connect:
 RD7010PRO-cc641a22295e
