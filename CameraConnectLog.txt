@@ -74,7 +74,7 @@ Summary of the Process:
 	3.	Device Identification: The system logs the camera’s identification details, including model and unique identifier.
 	4.	Wi-Fi Search and Connection:
 	•	The system searches for a direct Wi-Fi connection to the camera.
-	•	Initially, it connects to a network named “Zuhause5G,” but this connection fails (error=4).
+	•	Initially, it connects to a network named “xxx,” but this connection fails (error=4).
 	•	Subsequently, it successfully connects to the camera’s Wi-Fi network “RD7010PRO-cc641a22295e.”
 	5.	Network Stabilization: After establishing the Wi-Fi connection, the system waits briefly to ensure network stability.
 	6.	Information Synchronization: The device synchronizes various settings with the camera, including date, time, mode, and other parameters, culminating in a successful connection.
