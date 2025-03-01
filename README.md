@@ -28,7 +28,20 @@ python camera simulator creates following output confirming GPIO3 is command to 
 Advertisement registered
 2025-03-01 16:56:30,268 - INFO - Sending response: Response from simulated camera
 2025-03-01 16:56:30,808 - INFO - Received command: GPIO3 on Service UUID: FFE0, Characteristic UUID: FFE9
-^C2025-03-01 16:58:46,566 - INFO - Advertising as HTC-12345678
+
+C2025-03-01 16:58:46,566 - INFO - Advertising as HTC-12345678
+
+node mimiccamera has same results
+
+the "wild cam" ios app connect results:
+
+[INFO] Connected to client: 6b:c1:72:e2:2a:8d
+[READ] Characteristic ffea read.
+[WRITE] Characteristic ffe9 written with data: 4750494f33
+[ACTION] Received "GPIO3" command on ffe9.
+[SEND] Response on ffea: abcd1234
+[INFO] Disconnected from client: 6b:c1:72:e2:2a:8d
+
 
 
 camera Wifi connect:
