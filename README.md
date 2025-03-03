@@ -42,6 +42,18 @@ the "wild cam" ios app connect results:
 [SEND] Response on ffea: abcd1234
 [INFO] Disconnected from client: 6b:c1:72:e2:2a:8d
 
+gatttool -b 12:34:24:09:2E:B4 --characteristics
+handle = 0x0002, char properties = 0x02, char value handle = 0x0003, uuid = 00002a00-0000-1000-8000-00805f9b34fb
+handle = 0x0004, char properties = 0x02, char value handle = 0x0005, uuid = 00002a01-0000-1000-8000-00805f9b34fb
+handle = 0x0006, char properties = 0x02, char value handle = 0x0007, uuid = 00002a04-0000-1000-8000-00805f9b34fb
+handle = 0x0009, char properties = 0x20, char value handle = 0x000a, uuid = 00002a05-0000-1000-8000-00805f9b34fb
+handle = 0x000d, char properties = 0x08, char value handle = 0x000e, uuid = 5833ff02-9b8b-5191-6142-22a4536ef123
+handle = 0x000f, char properties = 0x10, char value handle = 0x0010, uuid = 5833ff03-9b8b-5191-6142-22a4536ef123
+handle = 0x0013, char properties = 0x10, char value handle = 0x0014, uuid = 0000fff3-0000-1000-8000-00805f9b34fb
+handle = 0x0016, char properties = 0x08, char value handle = 0x0017, uuid = 0000fff4-0000-1000-8000-00805f9b34fb
+handle = 0x0018, char properties = 0x0c, char value handle = 0x0019, uuid = 0000ffe9-0000-1000-8000-00805f9b34fb
+handle = 0x001a, char properties = 0x12, char value handle = 0x001b, uuid = 0000ffea-0000-1000-8000-00805f9b34fb
+handle = 0x001d, char properties = 0x10, char value handle = 0x001e, uuid = 0000ffeb-0000-1000-8000-00805f9b34fb
 
 
 camera Wifi connect:
