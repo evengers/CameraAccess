@@ -42,6 +42,23 @@ the "wild cam" ios app connect results:
 [SEND] Response on ffea: abcd1234
 [INFO] Disconnected from client: 6b:c1:72:e2:2a:8d
 
+
+typical connection sequence from camera app log:
+[09:01:08][BLEC] Starting Bluetooth scan
+[09:01:12][BLEC] Bluetooth connected
+[09:01:12][BLEC] Retrieved Bluetooth version: v27 240813#565
+[09:01:21][FFEB] RD7010PRO-cc641a22295e/12345678/(null)/1
+[09:02:04][HTTP] Starting synchronization with the camera
+[09:02:05][HTTP] 565/RD7010PRO_01/20190620/Nov 11 2024, 09:46:36/HUNTCAM
+[09:02:05][HTTP] Camera date synchronized successfully
+[09:02:05][HTTP] Camera time synchronized successfully
+[09:02:05][HTTP] Camera mode synchronized successfully
+[09:02:05][HTTP] Camera 3031 synchronized successfully
+[09:02:05][HTTP] Camera connected successfully
+
+
+
+
 gatttool -b 12:34:24:09:2E:B4 --characteristics
 handle = 0x0002, char properties = 0x02, char value handle = 0x0003, uuid = 00002a00-0000-1000-8000-00805f9b34fb
 handle = 0x0004, char properties = 0x02, char value handle = 0x0005, uuid = 00002a01-0000-1000-8000-00805f9b34fb
@@ -58,7 +75,26 @@ handle = 0x001d, char properties = 0x10, char value handle = 0x001e, uuid = 0000
 hex value of "GPIO3" is 47 50 49 4F 33    so 0x4750494F33 ??  or maybe 4750 494F 33   ??
 
 0100011101010000010010010100111100110011  byte array?
+DISCONNECT BY WRITING THAT TO UUID 5833FF02-9B8B-5191-6142-22A4536EF123
 
+SEND IT TO FFF4 seems to activate the WIFI ... but unable to join?
+
+
+
+Received from FFEA
+7632 3720 3234 3038 3133 2335 3635 00   which means    v27 240813#565
+
+RECEIVED FROM FFEB and light turns on
+5B53 445D 5244 3730 3130 5052 4F2D 0000    which means   [SD]RD7010PRO-
+
+
+try this order:)
+if connected, disconnect by sending gpio3 to 5833FF02-9B8B-5191-6142-22A4536EF123
+
+connect
+set notify on for that uuid
+writ to ffeb
+set notify on for ffea. and then read 
 
 
 camera Wifi connect:
