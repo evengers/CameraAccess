@@ -57,6 +57,10 @@ handle = 0x001d, char properties = 0x10, char value handle = 0x001e, uuid = 0000
 
 hex value of "GPIO3" is 47 50 49 4F 33    so 0x4750494F33 ??  or maybe 4750 494F 33   ??
 
+0100011101010000010010010100111100110011  byte array?
+
+
+
 camera Wifi connect:
 RD7010PRO-cc641a22295e
 12345678
