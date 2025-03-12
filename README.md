@@ -150,8 +150,110 @@ If you want verbose details from the .pcap file:
 
 tshark -r http_capture.pcap -Y "http" -V > http_detailed_summary.txt
 
-This gives a Wireshark-style detailed output.
 
-Summary:
-✅ Yes, you can capture in .pcap format and later extract a human-readable HTTP summary!
-Would you like to filter for specific requests (e.g., only GET or POST)?
+sample log for successful and unsuccessful conectionsnto [08:29:09][SYSV]iPhone14,7/18.4/1.0.8 25010602
+[08:29:09][BLEC]开始扫描蓝牙
+[08:29:13][BLEC]已经连接蓝牙
+[08:29:14][BLEC]已经获取到蓝牙版本:v27 240813#565
+[08:29:21][FFEB]RD7010PRO-cc641a22295e/12345678/(null)/1
+[08:29:22][WIFI]系统开始搜索直连WiFi
+[08:29:29][WIFI]已连接的WiFi信息 = RD7010PRO-cc641a22295e
+[08:29:29][WIFI]系统直连成功,延时等待网络稳定
+[08:29:34][HTTP]开始同相机同步信息
+[08:29:39][HTTP]开始同相机同步信息
+[08:29:44][HTTP]开始同相机同步信息
+[08:29:44][HTTP]565/RD7010PRO_01/20190620/Nov 11 2024, 09:46:36/HUNTCAM
+[08:29:44][HTTP]同步相机日期成功
+[08:29:44][HTTP]同步相机时间成功
+[08:29:44][HTTP]同步相机模式成功
+[08:29:44][HTTP]同步相机3031成功
+[08:29:44][HTTP]相机连接成功
+[08:38:16][BLEC]开始扫描蓝牙
+[08:38:17][BLEC]开始连接蓝牙
+[08:38:17][BLEC]开始连接蓝牙
+[08:39:16][HTTP]WiFi连接失败/error=1
+[08:39:24][BLEC]开始扫描蓝牙
+[08:39:28][BLEC]开始连接蓝牙
+[08:39:34][BLEC]开始连接蓝牙
+[08:43:03][BLEC]开始扫描蓝牙
+[08:43:04][BLEC]开始连接蓝牙
+[08:43:11][BLEC]已经连接蓝牙
+[08:43:12][BLEC]已经获取到蓝牙版本:v27 240813#565
+[08:44:03][HTTP]WiFi连接失败/error=1
+
+
+Here’s the translation:
+
+
+
+
+
+
+[08:29:09][SYSV] iPhone14,7/18.4/1.0.8 25010602
+
+[08:29:09][BLEC] Started scanning for Bluetooth
+
+[08:29:13][BLEC] Bluetooth connected
+
+[08:29:14][BLEC] Retrieved Bluetooth version: v27 240813#565
+
+[08:29:21][FFEB] RD7010PRO-cc641a22295e/12345678/(null)/1
+
+[08:29:22][WIFI] System started searching for direct WiFi connection
+
+[08:29:29][WIFI] Connected WiFi info = RD7010PRO-cc641a22295e
+
+[08:29:29][WIFI] System direct connection successful, delaying to allow network stabilization
+
+[08:29:34][HTTP] Starting synchronization with the camera
+
+[08:29:39][HTTP] Starting synchronization with the camera
+
+[08:29:44][HTTP] Starting synchronization with the camera
+
+[08:29:44][HTTP] 565/RD7010PRO_01/20190620/Nov 11 2024, 09:46:36/HUNTCAM
+
+[08:29:44][HTTP] Camera date synchronization successful
+
+[08:29:44][HTTP] Camera time synchronization successful
+
+[08:29:44][HTTP] Camera mode synchronization successful
+
+[08:29:44][HTTP] Camera 3031 synchronization successful
+
+[08:29:44][HTTP] Camera connection successful
+
+[08:38:16][BLEC] Started scanning for Bluetooth
+
+[08:38:17][BLEC] Started connecting to Bluetooth
+
+[08:38:17][BLEC] Started connecting to Bluetooth
+
+[08:39:16][HTTP] WiFi connection failed/error=1
+
+[08:39:24][BLEC] Started scanning for Bluetooth
+
+[08:39:28][BLEC] Started connecting to Bluetooth
+
+[08:39:34][BLEC] Started connecting to Bluetooth
+
+[08:43:03][BLEC] Started scanning for Bluetooth
+
+[08:43:04][BLEC] Started connecting to Bluetooth
+
+[08:43:11][BLEC] Bluetooth connected
+
+[08:43:12][BLEC] Retrieved Bluetooth version: v27 240813#565
+
+[08:44:03][HTTP] WiFi connection failed/error=1
+
+
+
+
+
+
+
+
+
+
+
