@@ -3,6 +3,8 @@
 
 Id shown on app:  24:09:28:15
 
+Uses chanel 1 for wifi
+'RD7010PRO-cc641a22295e' ({length = 22, bytes = 0x52443730313050524f2d636336343161323232393565}), bssid=<redacted>, channel=[1 (20MHz)], cc=(null), phy=11b/g/n (0x1C), rssi=-39, rsn=[mcast=aes_ccm, bip=none, ucast={ aes_ccm }, auths={ psk }, mfp=no, caps=0xc], wpa=(null), wapi=no, wep=no, ibss=no, ph=no, swap=no, hs20=no
 
 Model TCo8BXPXXX
 TC08
