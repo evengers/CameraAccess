@@ -250,6 +250,16 @@ Here’s the translation:
 
 
 
+Writes one of these to the 3rd characteristic ffe9
+
+"GETSD"
+"GETPD"
+"GETBT"
+"GPIO2"
+"GPIO3"
+
+read from characteristics are ffea, ffeb 
+
 
 
 
