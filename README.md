@@ -263,6 +263,15 @@ Writes one of these to the 3rd characteristic ffe9
 read from characteristics are ffea, ffeb 
 
 
+this according to mimicWirhNode.js is the order of events
+2-5 Notify enabled for:  0000ffeb-0000-1000-8000-00805f9b34fb
+2-5sending mock response:  [SD]RD7010PRO-
+2-3 write (GETSD or GPIO3):  GETSD
+
+
+
+
+
 
 
 
