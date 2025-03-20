@@ -250,6 +250,8 @@ Here’s the translation:
 [08:44:03][HTTP] WiFi connection failed/error=1
 
 
+see https://randomnerdtutorials.com/esp32-light-sleep-arduino/
+
 
 
 Writes one of these to the 3rd characteristic ffe9
